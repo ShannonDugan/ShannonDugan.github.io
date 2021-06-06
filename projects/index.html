@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            img {
+                border: 3px solid rgb(255,0,0);
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(25, 149, 231);
+                border-radius: 10px 10px 10px 10px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            h2 {
+                display: flex;
+                align-items: center;
+                color: rgb(0, 0, 0);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+                list-style-type: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+                list-style-type: none;
+            }
+            #interests-ul {list-style-type: square;
+            }
+
+            .interests-li {list-style-type: square;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                border-radius: 10px 10px 10px 10px;
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                border-radius: 10px 10px 10px 10px;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+        
+        <title>
+Ms. Dugan's Website
+        </title>
+    </head>
+        <body>
+            <!-- All content goes here -->
+           <div id="all-contents">
+               <nav>
+                   <h2>Dugan's Webbed Website</h2>
+                   <ul id="nav-ul">
+                       <li class="nav-li">
+                           <a href="index.html">Home</a>
+                       </li>
+                       <li class="nav-li">
+                           <a href="portfolio.html">Portfolio</a>
+                       </li>
+                   </ul>
+
+               </nav>
+                <main>
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <a href="https://disney.fandom.com/wiki/Jiminy_Cricket" target="_blank"><img class id="sidebar-img" src="https://i.pinimg.com/originals/50/66/cd/5066cd93a39e901781df6a01f45538a2.gif" width="200" height="148 "></a>
+                </div>
+
+                <!-- Content section -->
+                <div class="content">
+                    <h2>Shannon Dugan</h2>
+                    <p>Teacher at CHS</p>
+                </div>
+
+                <!-- Interests section -->
+                <div id="interests">
+                    <h3>Interests</h3>
+                    <ul id="interests-ul">
+                        <li class="interests-li">Comics</li>
+                        <li class="interests-li">Animal Rescue</li>
+                        <li class="interests-li">Photography</li>
+                    </ul>
+                </div>
+            </main>
+        </div>
+        </body>
+</html>
