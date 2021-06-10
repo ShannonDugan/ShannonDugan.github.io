@@ -4,6 +4,7 @@
     window.opspark.collectable = window.opspark.collectable || {};
     let collectable = window.opspark.collectable;
 
+    //this is an object
     let type = {
         db: {assetKey: 'db', points: 10},
         max: {assetKey: 'max', points: 20},
@@ -36,9 +37,9 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
+        // examples: 
+        createCollectable(type.grace, 200, 170, 6, 0.7);
+        createCollectable(type.steve, 300, 70, 6, 0.7);
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
