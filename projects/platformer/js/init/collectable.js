@@ -37,10 +37,11 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // examples: 
-        createCollectable(type.grace, 200, 170, 6, 0.7);
-        createCollectable(type.steve, 300, 70, 6, 0.7);
-        
+        createCollectable(type.grace, 110, 200, 75, 0.75); // woman no glasses left
+        createCollectable(type.max, 310, 150, 100, 0.75); // man no glasses
+        createCollectable(type.db, 500, 250, 100, 0.75); // stacked blue disc
+        createCollectable(type.steve, 650, 50, 100, 0.75); // man with glasses lower left
+        createCollectable(type.kennedi, 760, 325, 75, 0.75); // woman with glasses right    
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
